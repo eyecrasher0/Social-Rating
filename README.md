@@ -12,7 +12,7 @@ Social Rating adds player reputation to your Minecraft server through ratings, r
 
 ## Requirements
 
-- Minecraft 1.16.5–26.3 with the matching Fabric, Forge, or NeoForge build.
+- A [released build](https://github.com/eyecrasher0/Social-Rating/releases) for your exact Minecraft version and loader (Fabric, Forge or NeoForge).
 - [Fabric API](https://modrinth.com/mod/fabric-api) for Fabric builds.
 - The Java version required by your Minecraft version. See the [compatibility table](docs/compatibility.md).
 
@@ -35,9 +35,9 @@ cd fabric/26.3
 ./gradlew build
 ```
 
-On Windows, run `gradlew.bat build`. The result is `fabric/26.3/build/libs/social-rating-fabric-1.0.0+26.3.jar`.
+On Windows, run `gradlew.bat build`. The result is `fabric/26.3/build/libs/`.
 
-To build and collect several versions, use `python3 tools/build.py`. Select a single build with `--target fabric-26.3`. See [build requirements](docs/compatibility.md#building) for older versions and JDK options. Collected JARs are placed in `dist/social-rating-1.0.0/`.
+To build and collect several versions, use `python3 tools/build.py`. Select a single build with `--target fabric-26.3`. See [build requirements](docs/compatibility.md#building) for older versions and JDK options. Collected JARs are placed in `dist/social-rating-<version>/`.
 
 ## License
 
